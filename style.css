@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    font-family: 'inter';
+    
+}
+#menusuperior{
+    background-image: url(./image/fundo.svg);
+}
+#titulo-menusuperior{
+padding-top: 100px;
+font-family: Inter;
+font-size: 60px;
+font-weight: 600;
+line-height: 72px;
+letter-spacing: -0.025em;
+text-align: left;
+margin-left: 100px;
+color: white;
+}
+#texto-menusuperior{
+   color: white;
+    margin-left: 100px;
+    padding-bottom: 100px;
+    
+}
+#menuinformacional{
+    padding-top: 50px;
+    padding-left:  100px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    color: black;
+    background-color: #F9F9F9;
+    height: 200px;
+    
+
+}
+.informacional{
+  
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-bottom: 50px;
+  font-weight: bold;
+  font-size: 2em;
+}
+#painelfoto{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+#tituloexperiencia{
+    margin-top: 300px;
+    margin-left: 200px;
+  font-family: Inter;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    
+}
+#textotitulo{
+    margin-left: 200px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+    
+}
+#foto{
+   margin: 100px;
+   margin-right: 300px;
+}
+#formulario{
+text-align: center;
+background-color: #303030;
+height: 630px;
+
+}
+#titulo-formulario{
+    margin: 15px;
+    padding-top: 140px;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    color: white;
+    
+}
+input{
+    width: 500px;
+    height: 70px;
+    background-color: #eaece5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+button{
+    background-color: #c07212;
+   margin-top: 45px;
+    height: 50px;
+    width: 190px;
+    color: #eaece5;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+button:hover{
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #05103081;
+    transition-duration: 0.5s;
+
+}
